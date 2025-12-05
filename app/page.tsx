@@ -1,7 +1,10 @@
+
+import AcmeLogo from '@/app/ui/acme-logo';
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+
 export default function Page() {
   return (
-    <div className="bg-red-600 text-6xl p-20 font-bold">
-      <h1>Hello world</h1>
-    </div>
+    <h1>Hello world</h1>
   );
 }
